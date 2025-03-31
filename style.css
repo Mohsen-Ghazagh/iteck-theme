@@ -29,7 +29,6 @@ body {
   background: #eaafc8;
   background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
   background: linear-gradient(to right, #eaafc8, #654ea3);
-  
 }
 
 .footer-custom {
@@ -45,6 +44,19 @@ a {
 }
 a:hover {
   transition: 0.3s;
+}
+.contact-box {
+  max-width: 800px;
+  margin: auto;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-box i {
+  font-size: 1.5rem;
+  color: #c19a6b;
 }
 .home_slide1 {
   background: #dee0f2;
