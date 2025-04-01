@@ -99,7 +99,7 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : ( ( get_query
 											</div>
 											<a href="<?php echo get_the_permalink(); ?>" class="box_tit_item_blog"><?php echo get_the_title(); ?></a>
 											<div class="box_desc_item_blog">
-												<?php the_field('kholaseye_maghale'); ?>
+												<?php the_field('kholase_maghale'); ?>
 											</div>
 											<div class="box_info_item_blog">
 												<div class="box_author_info_item_blog">نویسنده: <?php echo get_the_author(); ?></div>
@@ -121,9 +121,7 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : ( ( get_query
 					
 				</div>
 					
-				<div class="col-4 float-start">
-					<?php get_sidebar(); ?>
-				</div>
+				
 			</div>
 		</div>	
 	</div>
