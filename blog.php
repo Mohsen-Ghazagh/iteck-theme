@@ -22,7 +22,7 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : ( ( get_query
 				<?php
 					
 					
-					$ids = get_field('pop_post_rel',false,false);
+					$ids = get_field('most_popular_post',false,false);
 					if ( $ids ) {
 						
 						$query = new WP_Query(array(
